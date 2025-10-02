@@ -1,0 +1,77 @@
+<extends src="partials/base-layout.html">
+  <block name="content">
+    <div class="l-main">
+      <main class="l-container">
+        <h1 class="l-page-title">Exercices - Animations GSAP</h1>
+
+        <extends src="partials/theory-animations.html"></extends>
+
+        <section>
+          <div class="l-content-wrapper">
+            <h2 class="l-h2">Consigne</h2>
+            <p>
+              Depuis <code>js/animations.js</code>, écrivez le code JavaScript
+              pour créer des animations GSAP selon les indications de chaque
+              exercice.
+            </p>
+            <p>
+              <b
+                >N'oubliez pas d'installer la librairie GSAP dans un premier
+                temps !</b
+              >
+            </p>
+          </div>
+          <div class="l-content-wrapper">
+            <h2 class="l-h2">Exemple</h2>
+            <pre><code>// gsap.to("#js-exercise-1", { x: 100, duration: 2 }); // L'élément se déplace de 100px vers la droite en 2 secondes</code></pre>
+          </div>
+        </section>
+
+        <section class="exercices-container" id="exercice-animations">
+          <article class="item exercise" id="js-exercice-1">
+            <h2>1</h2>
+          </article>
+
+          <article class="item exercise" id="js-exercice-2">
+            <h2>2</h2>
+          </article>
+
+          <article class="item exercise" id="js-exercice-3">
+            <h2>3</h2>
+          </article>
+
+          <article class="item exercise" id="js-exercice-4">
+            <h2>4</h2>
+          </article>
+
+          <article class="item exercise" id="js-exercice-5">
+            <h2>5</h2>
+          </article>
+
+          <article class="item exercise" id="js-exercice-6">
+            <h2>6</h2>
+          </article>
+
+          <article class="item exercise" id="js-exercice-7">
+            <h2>7</h2>
+          </article>
+
+          <article class="item exercise" id="js-exercice-8">
+            <h2>8</h2>
+            <button>Bouton</button>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <footer class="l-footer">
+      <div class="l-container">
+        <p></p>
+        <p>
+          Prochain exercice ➡️
+          <a href="timeline.html">Timeline GSAP</a>
+        </p>
+      </div>
+    </footer>
+  </block>
+</extends>
