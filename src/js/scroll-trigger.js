@@ -157,7 +157,7 @@ const scrollTriggerFunc = () => {
    -----------------------
     Punaiser la boîte [11] à l'écran
     en employant la propriété 'pin', lorsque :
-    le parent (#js-exercise-7) de [11] est au milieu de l'écran (son milieu atteint
+    le parent de [11] est au milieu de l'écran (son milieu atteint
     le milieu du viewport)
     
     puis, "libérer" la boîte lorsque :
